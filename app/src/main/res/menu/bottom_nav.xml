@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dashboardNav"
+        android:icon="@drawable/dashboard"
+        android:title="@string/dashboard" />
+
+    <item
+        android:id="@+id/categoryNav"
+        android:icon="@drawable/category"
+        android:title="@string/category" />
+
+    <item
+        android:id="@+id/statusNav"
+        android:icon="@drawable/status"
+        android:title="@string/status" />
+
+    <item
+        android:id="@+id/accountNav"
+        android:icon="@drawable/account"
+        android:title="@string/account" />
+</menu>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.DashboardFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="277dp"
+                android:src="@drawable/imgdashboard"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/hellolight"
+                android:fontFamily="@font/poppins"
+                android:textSize="24sp"
+                android:textColor="@color/green"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="@string/takeus"
+                android:fontFamily="@font/poppins"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                android:textColor="@color/green"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="@string/line"
+                android:textColor="@color/green"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="@string/our"
+                android:fontFamily="@font/poppins"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/green"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="280dp"
+                android:src="@drawable/imgdashboarddua"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="280dp"
+                android:src="@drawable/imgdashboardtiga" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="280dp"
+                android:src="@drawable/imgdashboardempat"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:src="@drawable/imgdashboardlima"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

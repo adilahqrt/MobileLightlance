@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">LightlanceSimpleAuth</string>
+    <string name="title">Lightlance</string>
+    <string name="hellolight">Hello Lightlancer!</string>
+    <string name="take">Take Your Moment</string>
+    <string name="takeus">Take Your Moment with Us</string>
+    <string name="pleaselogin">Please Login to Continue!</string>
+    <string name="pleaseregister">Register Your Account Please!</string>
+    <string name="email">Email</string>
+    <string name="balance">0</string>
+    <string name="password">Password</string>
+    <string name="confirmPass">Confirm Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="haven_t_account">Haven\'t Account?</string>
+    <string name="alreadyhaveaccount">Already Have Account</string>
+    <string name="copyright">Copyright</string>
+    <string name="hello">Hello</string>
+    <string name="lightlancer">Lightlancer!</string>
+    <string name="registerhere">Register Here!</string>
+    <string name="gender">Gender</string>
+    <string name="date">Date</string>
+    <string name="address">Address</string>
+    <string name="fullname">Fullname</string>
+    <string name="phone">Phone</string>
+    <string name="register">REGISTER</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="category">Category</string>
+    <string name="status">Status</string>
+    <string name="account">Account</string>
+    <string name="line">----------------------------------------------------------------------------------</string>
+    <string name="our">Our recent projects</string>
+    <string name="pasphoto">Pas Photo</string>
+    <string name="graduation">Graduation</string>
+    <string name="wedding">Wedding</string>
+    <string name="engagement">Engagement</string>
+    <string name="prewedding">Pre-Wedding</string>
+    <string name="tedaksiten">Tedak Siten</string>
+    <string name="birthday">Birthday Party</string>
+    <string name="hunting">Hunting</string>
+    <string name="pilihPaket">Pilih Paket</string>
+    <string name="detailPaket">Detail Paket</string>
+    <string name="bookingpaket">Booking Paket</string>
+    <string name="bookingnow">Booking Now</string>
+    <string name="paket1">Paket 1\nIDR 350.000\nLihat Detail Paket</string>
+    <string name="paket2">Paket 2\nIDR 500.000\nLihat Detail Paket</string>
+    <string name="paketWedding1">Paket 1\nIDR 350.000\n1 Roll Foto (40 Foto)\n5 Jam Kerja\nAll File Edit</string>
+    <string name="ketPaket">Pelanggan dapat menentukan\nwaktu pelaksanaan, tempat\nrequest edit dan lain - lain</string>
+    <string name="sk">Syarat dan Ketentuan :</string>
+    <string name="isiSK">1. Pilihan paket yang tercantum adalah paket yang telah dipilih\n
+    2. Pilihan paket yang telah dipilih akan dikerjakan berdasarkan waktu kerja setelah anda melakukan pembayaran\n
+    3. Paket yang telah dipilih tidak dapat diubah setelah pembayaran</string>
+    <string name="setuju">Saya setuju</string>
+    <string name="lanjut">CONTINUE</string>
+    <string name="myaccount">My Account</string>
+    <string name="titikdua">:</string>
+    <string name="edit">Edit Profile</string>
+    <string name="logout">Logout</string>
+    <string name="oke">OKE</string>
+    <string name="topUpBalance">Top Up Balance</string>
+    <string name="yourBalance">Your Balance</string>
+    <string name="topUp">TOP UP</string>
+    <string name="payment">Payment</string>
+    <string name="bookingsuccess">Booking Success</string>
+    <string name="thankyou">Terimakasih!\nAnda telah melakukan pemesanan di Lightlance\n\nSilahkan Lanjutkan Pembayaran!</string>
+    <string name="totalprice">Total Price :</string>
+    <string name="wedding1price">IDR 350.000</string>
+    <string name="pay">PAY</string>
+    <string name="totalbayar">Total Pembayaran :</string>
+    <string name="metode">Metode Pembayaran </string>
+    <string name="displaysaldo">Saldo anda :</string>
+    <string name="btncontinue">Continue</string>
+    <string name="forgotPass">Forgot Password</string>
+    <string name="inputEmail">Masukkan email yang Anda gunakan :</string>
+    <string name="send">SEND</string>
+    <string name="statusPemesanan">Status Pemesanan</string>
+    <string name="yourPackage">Nama Paket Anda</string>
+
+    <string-array name="gender">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_wedding_paket">WeddingPaketActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="category_image">Category Image</string>
+    <string name="detail_pesanan">Detail Pesanan</string>
+    <string name="nama_paket">Nama paket</string>
+    <string name="kategori">Kategori</string>
+    <string name="deskripsi_paket">Deskripsi paket</string>
+    <string name="metode_pembayaran">Metode Pembayaran</string>
+    <string name="saldo">Saldo Lightlance</string>
+    <string name="total_pembayaran">Total Pembayaran:</string>
+</resources>

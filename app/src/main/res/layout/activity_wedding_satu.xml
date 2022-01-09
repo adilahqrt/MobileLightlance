@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".wedding.WeddingSatuActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="@string/detailPaket" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="277dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/imgdashboard"/>
+
+            <TextView
+                android:id="@+id/tvCategoryTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_below="@id/imgCategory"
+                android:text="@string/wedding"
+                android:fontFamily="@font/poppins"
+                android:textSize="24sp"
+                android:textColor="@color/green"
+                android:textStyle="bold" />
+
+
+            <RelativeLayout
+                android:id="@+id/wedding1"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_centerInParent="true"
+                android:layout_below="@id/tvCategoryTitle"
+                android:background="@drawable/bg_paket" >
+
+                <TextView
+                    android:id="@id/tvPackageDesc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="8dp"
+                    android:layout_marginHorizontal="16dp"
+                    android:layout_centerInParent="true"
+                    android:text="@string/paketWedding1"
+                    android:textColor="@color/green"
+                    android:fontFamily="@font/poppins"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/ketPaket"
+                android:layout_width="330dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="16dp"
+                android:layout_centerInParent="true"
+                android:layout_below="@id/wedding1"
+                android:background="@drawable/bg_paket" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_centerInParent="true"
+                    android:text="@string/ketPaket"
+                    android:textColor="@color/green"
+                    android:fontFamily="@font/poppins"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
+
+            </RelativeLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnBookingNow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="32dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_below="@+id/ketPaket"
+                android:layout_centerInParent="true"
+                android:background="@drawable/bg_button"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:text="@string/bookingnow"
+                android:fontFamily="@font/poppins"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>
