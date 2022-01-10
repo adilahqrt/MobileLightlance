@@ -33,7 +33,7 @@ public abstract class ApiConfig {
 
             //base URL untuk database
             retrofit = new Retrofit.Builder()
-                    .baseUrl("http://ws-tif.com/lightlance/lightlance_api/")
+                    .baseUrl("http://192.168.1.2/lightlance/api/")
                     .addConverterFactory(GsonConverterFactory.create(gson))
                     .client(client)
                     .build();
