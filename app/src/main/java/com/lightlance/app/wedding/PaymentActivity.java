@@ -49,7 +49,7 @@ public class PaymentActivity extends AppCompatActivity implements View.OnClickLi
             TextView tvPackagePrice = findViewById(R.id.tvPackagePrice);
 
             Glide.with(this)
-                    .load("https://ws-tif.com/lightlance/lightlance/img/" + categoriesItem.getImageKategori())
+                    .load("https://ws-tif.com/lightlance/img/" + categoriesItem.getImageKategori())
                     .centerCrop()
                     .into(imgCategory);
 

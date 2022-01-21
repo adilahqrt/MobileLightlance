@@ -55,7 +55,7 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.Catego
             ImageView imgCategory = itemView.findViewById(R.id.imgCategory);
 
             Glide.with(itemView.getContext())
-                    .load("https://ws-tif.com/lightlance/lightlance/img/" + categoriesItem.getImageKategori())
+                    .load("https://ws-tif.com/lightlance/img/" + categoriesItem.getImageKategori())
                     .centerCrop()
                     .into(imgCategory);
 

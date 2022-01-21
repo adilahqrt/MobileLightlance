@@ -47,7 +47,7 @@ public class WeddingSatuActivity extends AppCompatActivity {
 
         if (categoriesItem != null && packagesItem != null) {
             Glide.with(this)
-                    .load("https://ws-tif.com/lightlance/lightlance/img/" + categoriesItem.getImageKategori())
+                    .load("https://ws-tif.com/lightlance/img/" + categoriesItem.getImageKategori())
                     .centerCrop()
                     .into(imgCategory);
 
